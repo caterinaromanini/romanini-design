@@ -1,15 +1,15 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Navbar      from "@/components/Navbar";
-import Hero        from "@/components/Hero";
-import Philosophy  from "@/components/Philosophy";
-import About       from "@/components/About";
-import Services    from "@/components/Services";
-import Portfolio   from "@/components/Portfolio";
-import Testimonial from "@/components/Testimonial";
-import Contact     from "@/components/Contact";
-import Footer      from "@/components/Footer";
+import Navbar      from "../components/Navbar";
+import Hero        from "../components/Hero";
+import Philosophy  from "../components/Philosophy";
+import About       from "../components/About";
+import Services    from "../components/Services";
+import Portfolio   from "../components/Portfolio";
+import Testimonial from "../components/Testimonial";
+import Contact     from "../components/Contact";
+import Footer      from "../components/Footer";
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState("home");
