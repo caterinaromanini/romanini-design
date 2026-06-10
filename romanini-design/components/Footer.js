@@ -1,6 +1,6 @@
 "use client";
 
-import { scrollTo } from "@/lib/utils";
+import { scrollTo } from "../lib/utils";
 
 const NAV_ITEMS = ["home", "about", "services", "portfolio", "contact"];
 
