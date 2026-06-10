@@ -1,6 +1,6 @@
 "use client";
 
-import { useFadeIn } from "@/lib/utils";
+import { useFadeIn } from "../lib/utils";
 
 export default function Testimonial() {
   const ref = useFadeIn();
