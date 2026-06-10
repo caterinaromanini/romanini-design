@@ -1,7 +1,7 @@
 "use client";
 
-import { useFadeIn, WarmPlaceholder } from "@/lib/utils";
-import { scrollTo } from "@/lib/utils";
+import { useFadeIn, WarmPlaceholder } from "../lib/utils";
+import { scrollTo } from "../lib/utils";
 
 const STATS = [
   { n: "85+",  l: "Projects Completed" },
