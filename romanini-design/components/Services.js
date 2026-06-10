@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useFadeIn, scrollTo } from "@/lib/utils";
+import { useFadeIn, scrollTo } from "../lib/utils";
 
 const SERVICES = [
   {
