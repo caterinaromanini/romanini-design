@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useFadeIn } from "@/lib/utils";
+import { useFadeIn } from "../lib/utils";
 
 const INFO_ROWS = [
   { label: "Studio",    val: "Tulum, Quintana Roo, México" },
