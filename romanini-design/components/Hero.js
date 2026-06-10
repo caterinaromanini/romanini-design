@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { scrollTo } from "@/lib/utils";
+import { scrollTo } from "../lib/utils";
 
 export default function Hero() {
   const [loaded, setLoaded] = useState(false);
