@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useFadeIn, WarmPlaceholder } from "@/lib/utils";
+import { useFadeIn, WarmPlaceholder } from "../lib/utils";
 
 const FILTERS  = ["All", "Residential", "Hospitality", "Staging"];
 
